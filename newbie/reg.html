@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <nav class="head">
+            <h1>New<span>Bie</span></h1>
+
+            <ul class="view">
+                <li id="cart"><img src="./images/7.png" width="20px" height="20px"></li>
+                <li><a href="cart.html" id="cart">View cart</a></li>
+                <li><select id="cur" name="currency">
+                        <option value="ngn">NGN</option>
+                        <option value="usd">USD</option>
+
+                    </select></li>
+            </ul>
+
+        </nav>
+        <nav>
+
+            <ul>
+                <li><a class="icon"><img src="./images/6.png" width="20px" height="20px"></a></li>
+                <li><a class="Home" href="Home">Home</a></li>
+                <li><a href="Blog">Blog</a></li>
+                <li><a href="Contact Us">Contact Us</a></li>
+                <li><a href="About Us">About Us</a></li>
+            </ul>
+            <ul class="login">
+                <li><a href="login.html" id="log">Login</a></li>
+                <li><a href="C:\Users\ATAVU TECH LTD\Desktop\training\reg.html" id="reg">Register</a></li>
+            </ul>
+
+        </nav>
+    </div>
+    <div class="main_body">
+        <div class="container">
+            <div class="ter">
+                <h2>Register</h2>
+            </div>
+
+            <div class="login_wrapper">
+                <div class="login_body">
+                    <form>
+                        <div class="info">
+                            <h3>Personal Information</h3>
+                        </div>
+                        <div class="section_1">
+
+                            <label for="firstname">First name*</label><br>
+                            <input type="text" id="firstname" name="firstname"><br>
+                            <label for="email">Email Address*</label><br>
+                            <input type="text" id="email" name="email">
+                        </div>
+                        <div class="bil">
+                            <h3>Billing Address</h3>
+                        </div>
+                        <div class="section_2">
+
+                            <label for="companyname">Company name(optional)</label><br>
+                            <input type="text" id="companyname" name="companyname"><br>
+                            <label for="email">Street address 2 (optional) </label><br>
+                            <input type="text" id="address" name="address">
+                        </div>
+                        <div class="subsect">
+                            <div class="section_5">
+                                <label for="state">State* </label><br>
+                                <input type="text" id="state" name="state"><br>
+                            </div>
+                            <div class="section_6">
+                                <label for="postcode">Postcode* </label><br>
+                                <input type="text" id="postcode" name="postcode"><br>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="login_section">
+                    <form>
+                        <div class="section_3">
+                            <label for="firstname">Last name*</label><br>
+                            <input type="text" id="firstname" name="firstname"><br>
+                            <label for="number">Phone number*</label><br>
+                            <input type="tel" id="number" name="number"><br>
+                        </div>
+                        <div class="section_4">
+                            <label for="email">Street address* </label><br>
+                            <input type="text" id="address" name="address"><br>
+                            <label for="city">City*</label><br>
+                            <input type="text" id="city" name="city"><br>
+                            <label for="country">Country*</label><br>
+                            <select id="country" name="country">
+                                <option value="volvo">Nigeria</option>
+                                <option value="saab">London</option>
+                                <option value="fiat">Asia</option>
+                                <option value="audi">India</option>
+                            </select>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="section_7">
+                <div class="req">
+                    <h3>Additional Required Information</h3>
+                    <p>(required fields are marked with *)</p>
+                </div>
+                <label for="companyname">Currency</label><br>
+                <select id="currency" name="currency">
+                    <option value="ngn">NGN</option>
+                    <option value="usd">USD</option>
+
+                </select>
+                <div class="acct">
+                    <h3>Account security</h3>
+                </div>
+                <div class="ps_container">
+                    <div class="pass">
+                        <label for="password">Password </label><br>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="word">
+                        <label for="confirm">Confirm Password</label><br>
+                        <input type="password" id="conps" name="conps">
+                    </div>
+
+                </div>
+                <div class="generate">
+                    <button type="button" onclick="" id="but"><img src="images/5.svg" id="loading">Generate
+                        password</button>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="mail">
+                    <h3>Join our mailing list</h3>
+                    <p>We would like to send you occasional news, information and special offers by email. To join
+                        our<br>
+                        mailing list, simply tick the box below. You can unsubscribe at any time.</p>
+                </div>
+                <div class="submid">
+                    <div class="subpanel">
+                        <span class="switch_label">Recieve Email:</span>
+                        <div>
+                            <label class="switch_container">
+                                <input class="switch_checkbox" type="checkbox" value="1">
+
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bar_1">
+
+        </div>
+        <div class="bar_2">
+
+        </div>
+        <div class="bar_3">
+
+        </div>
+        <div class="bar_4">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
